@@ -1,0 +1,69 @@
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Login</title>
+</head>
+
+<body>
+
+    <div id="div_isesion">
+        <main role="main" class="container my-auto" style="background-color: rgb(200, 200, 210); border: 1px;">
+            <div class="row">
+                <div id="login" class="col-lg-4 offset-lg-4 col-md-6 offset-md-3 col-12">
+                    <h2 class="text-center" style="font-family:arial">Bienvenido</h2>
+                    <img class="img-fluid mx-auto d-block rounded" src="IMG/login3.jpg" width="100" height="100"
+                        alt="login" />
+
+                    <form>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input id="email" name="email" class="form-control" type="email"
+                                placeholder="Ingrese el Correo">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input id="password" name="password" class="form-control" type="password"
+                                placeholder="Ingrese la Contraseña">
+                        </div>
+                        <button type="button" onclick='return enviaFormulario()' class="btn btn-primary mb-2"
+                            value="Enviar">Ingresar</button>
+                        <br>
+                         
+                        <a href="crearUsuario2.html" onclick='enviaFormulario2()'>CrearUsuario</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="#">Contraseña olvidada</a>
+                    </form>
+                    <div id="error"></div>
+                </div>
+            </div>
+        </main>
+
+    </div>
+ 
+       </script>
+       
+       <script src="JS/crearUsuario.js"></script> -->
+         
+    <script src="JS/crearUsuario2.js"></script>
+    <script src="JS/validarFormulario.js"></script>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
